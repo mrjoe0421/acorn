@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Table</title>
+</head>
+<body>
+	<form nmae="myForm" action="target.html" method="post">
+		<select name="cars">
+			<option value="hyundai">현대</option>
+			<option value="kia">기아</option>
+		</select>
+	</form>
+</body>
+</html>

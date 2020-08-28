@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Table</title>
+</head>
+<body>
+	<table border="1">
+	<caption>캡션 실습</caption>
+	<tr> <!-- 행 -->
+		
+		<th>1열 제목</th>
+		<th>2열 제목</th>
+		<td>
+		<p>첫 번째 단락입니다.</p>
+		<p>두 번째 단락입니다.</p>
+		</td>
+		<tr>
+		<td>A</td>
+		<td>B</td>
+		</tr>
+		<tr>
+		<td>C</td>
+		<td>D</td>
+		</tr>
+	</tr>
+	<tr>
+		<th>1행 1열</th>
+		<th>1행 2열</th>
+	</tr>
+	<tr>
+		<th>2행 1열</th>
+		<th>2행 2열</th>
+	</tr>
+	<td>
+		<ul>
+			<li>사과</li>
+			<li>바나나</li>
+			<li>포도</li>
+		</ul>
+	</td>
+	</table>
+</body>
+</html>

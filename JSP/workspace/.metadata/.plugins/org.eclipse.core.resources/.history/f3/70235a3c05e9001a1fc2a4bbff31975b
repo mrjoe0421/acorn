@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+	function test(n){
+		
+		var result = 0;
+		for(var i = 0; i<=20; i++){
+			for(var j=0; j<=20; j++){
+				if(i%2==0 && j%3==0)
+					sum++;
+			}
+		}
+		return sum;
+	}
+
+
+
+	var a = prompt("숫자를 입력하시오.");
+	var b = prompt("숫자를 입력하시오.");
+	a = parseInt(a);
+	b = parseInt(b);
+	console.log("총합 : " + );
+</script>
+</head>
+<body>
+
+</body>
+</html>

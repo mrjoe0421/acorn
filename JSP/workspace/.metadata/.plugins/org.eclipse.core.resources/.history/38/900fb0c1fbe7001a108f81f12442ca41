@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Table</title>
+</head>
+<body>
+	<form nmae="myForm" action="target.html" method="get">아이디 :<br>
+	<input type="text" name="userid"><br>
+	비밀번호:<br>
+	<input type="text" name="passwd"><br>
+	
+	</form>
+</body>
+</html>

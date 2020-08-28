@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<p><b>지원서 작성</p>
+	<hr>
+	<form>
+	<h2>기본지원사항</h2>
+	<table border="1">
+		<tr>
+			<td>응시분야</td>
+			<td>
+				<select name="jobs">
+					<option value="Consulting">Consulting</option>
+					<option value="Iot">lot</option>
+					<option value="Bigdata">빅 데이터</option>
+					<option value="R&D">R&amp;D</option>
+				</select>
+				<select name="career">
+					<option value="Staff">Staff</option>
+					<option value="신입">신입</option>
+					<option value="경력">경력</option>
+					
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>졸업여부</td>
+			<td>
+				<input type="radio" name="graduation" value="졸업" checked>졸업
+				<input type="radio" name="pregraduation" value="졸업예정" >졸업예정
+			</td>
+		</tr>
+	</table>
+	<h2>기본인적사항</h2>
+		<table border="1">
+			<tr>
+			<td>성명</td>
+			<td>
+				<input type="text" name="name" >
+			</td>
+			<td>국적<input type="text" name="country" >
+			</td>
+			</tr>
+			<tr>
+			<td>영문이름</td>
+			<td>성
+				<input type="text" name="firstn" >
+			</td>
+			<td>이름<input type="text" name="secondn" >
+			</td>
+			</tr>
+			<tr>
+			<td>이메일</td>
+			<td><input type="text" name="email" >&amp;
+			<input type="text" name="email" >
+			</td>
+			</tr>
+			<tr>
+			<td>휴대전화</td>
+			<td>
+				<input type="text" name="number1" >
+				<input type="text" name="number2" >
+				<input type="text" name="number3" >
+			</td>
+			
+			</tr>
+		</table>
+	<h2>어학사항</h2>
+	</form>
+</body>
+</html>

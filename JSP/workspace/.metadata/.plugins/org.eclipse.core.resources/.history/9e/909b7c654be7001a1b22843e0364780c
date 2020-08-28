@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<p><b>지원서 작성</p>
+	<hr>
+	<form>
+	<h2>기본지원사항</h2>
+	<table>
+		<tr>
+			<td>응시분야</td>
+			<td>
+				<input type="select" name="job">
+			</td>
+		</tr>
+		<tr></tr>
+	</table>
+	<h2>기본인적사항</h2>
+	<h2>어학사항</h2>
+	</form>
+</body>
+</html>

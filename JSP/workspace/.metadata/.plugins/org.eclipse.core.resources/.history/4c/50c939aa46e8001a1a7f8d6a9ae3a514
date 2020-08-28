@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function aaa(n){
+		console.log("aaa()함수 호출됨" + n);
+	}
+	
+	aaa(100);
+	
+	
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

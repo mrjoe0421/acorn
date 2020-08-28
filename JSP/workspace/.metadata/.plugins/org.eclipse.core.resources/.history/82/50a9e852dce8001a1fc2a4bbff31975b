@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	var box = prompt("1. 정수값을 입력하시오");
+	var box2 = prompt("2. 정수값을 입력하시오");
+	var box3 = prompt("3. 정수값을 입력하시오");
+	
+	var n = parseInt(n);
+	if(n = box){
+		console.log("첫 번째 입력값은 :" + box);
+	}else if(n = box2){
+		console.log("두 번째 입력값은 :" + box2);
+	}else{
+		console.log("세 번째 입력값은 :" + box3);
+	}
+</script>
+</head>
+<body>
+
+</body>
+</html>

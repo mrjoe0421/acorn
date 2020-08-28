@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	var myCars = ["BMW", "Benz", "티코"];
+	
+	for(var num4 in myCars){
+		console.log("myCars" + myCars[num4]);
+	}
+</script>
+</head>
+<body>
+
+</body>
+</html>

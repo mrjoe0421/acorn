@@ -1,0 +1,66 @@
+
+8월 25, 2020 16:17:01.135 NEW SESSION
+8월 25, 2020 16:17:01.135 [8544:12744:0825/161701.134:ERROR:device_event_log_impl.cc(208)] [16:17:01.134] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+8월 25, 2020 16:35:19.225 [23056:12888:0825/163519.225:ERROR:device_event_log_impl.cc(208)] [16:35:19.225] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+8월 25, 2020 18:00:11.76 [3924:22812:0825/180011.076:ERROR:device_event_log_impl.cc(208)] [18:00:11.076] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+
+8월 26, 2020 17:08:51.562 NEW SESSION
+8월 26, 2020 17:08:51.562 [18428:22404:0826/170851.545:ERROR:device_event_log_impl.cc(208)] [17:08:51.545] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+8월 26, 2020 17:19:07.880 [7188:16632:0826/171907.880:ERROR:device_event_log_impl.cc(208)] [17:19:07.880] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+8월 26, 2020 17:21:02.480 [8640:4100:0826/172102.480:ERROR:device_event_log_impl.cc(208)] [17:21:02.480] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+
+8월 27, 2020 09:44:57.268 NEW SESSION
+8월 27, 2020 09:44:57.268 [2632:11380:0827/094457.253:ERROR:device_event_log_impl.cc(208)] [09:44:57.253] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+8월 27, 2020 10:19:10.268 [8264:17304:0827/101910.267:ERROR:device_event_log_impl.cc(208)] [10:19:10.267] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+8월 27, 2020 11:22:35.300 [8264:4012:0827/112235.299:ERROR:mcs_client.cc(755)] Received close command, resetting connection.
+8월 27, 2020 11:49:28.159 [15996:21036:0827/114928.159:ERROR:device_event_log_impl.cc(208)] [11:49:28.158] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+8월 27, 2020 11:58:08.438 [13904:23296:0827/115808.437:ERROR:device_event_log_impl.cc(208)] [11:58:08.438] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+8월 27, 2020 12:00:24.758 [23388:7044:0827/120024.757:ERROR:device_event_log_impl.cc(208)] [12:00:24.757] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+
+8월 27, 2020 14:16:58.27 NEW SESSION
+8월 27, 2020 14:16:58.42 [1892:2836:0827/141658.027:ERROR:device_event_log_impl.cc(208)] [14:16:58.018] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+8월 27, 2020 14:18:53.49 [12432:11372:0827/141853.049:ERROR:device_event_log_impl.cc(208)] [14:18:53.046] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+8월 27, 2020 17:26:35.439 [15012:14680:0827/172635.439:ERROR:device_event_log_impl.cc(208)] [17:26:35.448] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+8월 27, 2020 17:41:12.208 [11064:2104:0827/174112.208:ERROR:device_event_log_impl.cc(208)] [17:41:12.208] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+8월 27, 2020 17:53:20.858 [14992:12300:0827/175320.858:ERROR:device_event_log_impl.cc(208)] [17:53:20.865] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+8월 27, 2020 17:54:47.948 [14992:12300:0827/175447.948:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.382 s for first_image_paint 0.376 s
+8월 27, 2020 17:54:48.984 [14992:12300:0827/175448.984:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.382 s for first_image_paint 0.376 s
+8월 27, 2020 17:54:50.31 [14992:12300:0827/175450.030:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.382 s for first_image_paint 0.376 s
+8월 27, 2020 17:54:51.753 [14992:12300:0827/175451.753:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.382 s for first_image_paint 0.376 s
+8월 27, 2020 17:54:53.568 [14992:12300:0827/175453.567:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.382 s for first_image_paint 0.376 s
+8월 27, 2020 17:54:55.365 [14992:12300:0827/175455.365:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.382 s for first_image_paint 0.376 s
+8월 27, 2020 17:54:57.382 [14992:12300:0827/175457.382:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.382 s for first_image_paint 0.376 s
+8월 27, 2020 17:54:58.892 [14992:12300:0827/175458.891:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.382 s for first_image_paint 0.376 s
+8월 27, 2020 17:55:00.502 [14992:12300:0827/175500.502:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.382 s for first_image_paint 0.376 s
+8월 27, 2020 17:55:02.418 [14992:12300:0827/175502.418:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.382 s for first_image_paint 0.376 s
+8월 27, 2020 17:55:04.332 [14992:12300:0827/175504.331:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.382 s for first_image_paint 0.376 s
+8월 27, 2020 17:55:06.458 [14992:12300:0827/175506.458:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.382 s for first_image_paint 0.376 s
+8월 27, 2020 17:55:08.372 [14992:12300:0827/175508.371:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.382 s for first_image_paint 0.376 s
+8월 27, 2020 17:55:10.386 [14992:12300:0827/175510.385:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.382 s for first_image_paint 0.376 s
+8월 27, 2020 17:55:12.396 [14992:12300:0827/175512.396:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.382 s for first_image_paint 0.376 s
+8월 27, 2020 17:55:14.519 [14992:12300:0827/175514.519:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.382 s for first_image_paint 0.376 s
+8월 27, 2020 17:55:16.622 [14992:12300:0827/175516.621:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.382 s for first_image_paint 0.376 s
+8월 27, 2020 17:55:18.632 [14992:12300:0827/175518.632:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.382 s for first_image_paint 0.376 s
+8월 27, 2020 17:58:29.654 [14992:12300:0827/175829.653:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.382 s for first_image_paint 0.376 s
+8월 27, 2020 17:58:31.564 [14992:12300:0827/175831.564:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.382 s for first_image_paint 0.376 s
+8월 27, 2020 17:58:33.475 [14992:12300:0827/175833.475:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.382 s for first_image_paint 0.376 s
+8월 27, 2020 17:58:35.181 [14992:12300:0827/175835.180:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.382 s for first_image_paint 0.376 s
+8월 27, 2020 17:58:36.689 [14992:12300:0827/175836.688:ERROR:page_load_metrics_update_dispatcher.cc(165)] Invalid first_paint 0.382 s for first_image_paint 0.376 s
+8월 27, 2020 18:10:31.703 [8552:13376:0827/181031.703:ERROR:device_event_log_impl.cc(208)] [18:10:31.710] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+8월 27, 2020 18:45:50.437 [8776:13748:0827/184550.437:ERROR:device_event_log_impl.cc(208)] [18:45:50.444] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+8월 27, 2020 18:47:01.253 [14676:12956:0827/184701.253:ERROR:device_event_log_impl.cc(208)] [18:47:01.253] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+8월 27, 2020 18:54:38.264 [13388:7900:0827/185438.264:ERROR:device_event_log_impl.cc(208)] [18:54:38.270] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+8월 27, 2020 19:12:46.534 [11724:13424:0827/191246.534:ERROR:device_event_log_impl.cc(208)] [19:12:46.534] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+8월 27, 2020 19:15:18.519 [13332:9636:0827/191518.519:ERROR:device_event_log_impl.cc(208)] [19:15:18.527] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+8월 27, 2020 19:16:25.880 [14132:6696:0827/191625.880:ERROR:device_event_log_impl.cc(208)] [19:16:25.890] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+
+8월 28, 2020 09:46:18.907 NEW SESSION
+8월 28, 2020 09:46:18.907 [12164:7724:0828/094618.889:ERROR:device_event_log_impl.cc(208)] [09:46:18.889] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+8월 28, 2020 10:48:05.956 [12788:3792:0828/104805.956:ERROR:device_event_log_impl.cc(208)] [10:48:05.956] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+8월 28, 2020 12:50:38.600 [676:13276:0828/125038.600:ERROR:device_event_log_impl.cc(208)] [12:50:38.601] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+8월 28, 2020 13:04:58.792 [324:15484:0828/130458.792:ERROR:device_event_log_impl.cc(208)] [13:04:58.792] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+8월 28, 2020 13:47:03.318 [324:10376:0828/134703.317:ERROR:socket_stream.cc(219)] Closing stream with result -2
+8월 28, 2020 15:05:33.19 [6756:12800:0828/150533.019:ERROR:device_event_log_impl.cc(208)] [15:05:33.019] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+8월 28, 2020 15:09:31.209 [16072:12292:0828/150931.209:ERROR:device_event_log_impl.cc(208)] [15:09:31.209] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+8월 28, 2020 15:19:40.746 [12804:10432:0828/151940.745:ERROR:device_event_log_impl.cc(208)] [15:19:40.745] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.
+8월 28, 2020 17:14:41.673 [7780:13952:0828/171441.672:ERROR:device_event_log_impl.cc(208)] [17:14:41.673] Bluetooth: bluetooth_adapter_winrt.cc:1074 Getting Default Adapter failed.

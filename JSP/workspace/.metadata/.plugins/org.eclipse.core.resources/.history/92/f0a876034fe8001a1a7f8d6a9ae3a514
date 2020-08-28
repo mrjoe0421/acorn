@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	var box = prompt("첫 번째 값을 입력해주세요" );
+	var box2 = prompt("두 번째 값을 입력해주세요");
+	
+	
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

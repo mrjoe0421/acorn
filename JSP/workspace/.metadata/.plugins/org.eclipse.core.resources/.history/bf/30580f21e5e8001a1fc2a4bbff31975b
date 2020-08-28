@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+	
+
+</head>
+<body>
+<script type="text/javascript">
+	for(var n=2; n<9; n++){
+		document.write( "<h1>"+n+"단</h1>")
+		for(m=2; m<9; m++){
+		var result = n * m;
+		
+			document.write(n+"x"+ m + "=" + result + "<br>" );
+		}
+	}
+	</script>
+</body>
+</html>

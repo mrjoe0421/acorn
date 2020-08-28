@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	
+	var n = prompt("숫자를 입력하시오");
+	n = parseInt(n);
+	function A(){
+		var n = 1;
+		while(n<100){
+			if(n%3==0){
+				console.log()
+			}
+			n++;
+			count++;
+			console.log(A);
+		}
+	}
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

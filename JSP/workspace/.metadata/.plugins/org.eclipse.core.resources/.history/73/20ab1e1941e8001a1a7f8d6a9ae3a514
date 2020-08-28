@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	
+ 	var p = prompt(); //괄호 안의 입력하는건 입력값이 아니라 
+	var p2 = prompt();
+	var sum = (parseInt(p) + parseInt(p2));
+	alert("결과는" + sum);
+	document.write("<h1>result="+ sum +"</h1>);  
+</script>
+</head>
+<body>
+	<p>hello</p>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+function max(box, box2, box3){
+	var temp = (box > box2) ? box : box2 
+	var max = (temp>box3) ? temp : box3;
+	return max;
+}
+	var box = prompt("1. 정수값을 입력하시오");
+	var box2 = prompt("2. 정수값을 입력하시오");
+	var box3 = prompt("3. 정수값을 입력하시오");
+	console.log("첫번째 입력값은:" + box);
+	console.log("두번째 입력값은:" + box2);
+	console.log("세번째 입력값은:" + box3);
+	 box = parseInt(box);
+	 box2 = parseInt(box2);
+	 box3 = parseInt(box3);
+	
+	var result = max(box, box2, box3);
+	 var max2 = (function max(box, box2, box3){
+		var temp = (box > box2) ? box : box2 
+		var max = (temp>box3) ? temp : box3;
+		return max;
+	})(box, box2, box3); 
+	console.log("가장 큰 값 :" + result);
+	document.write("가장 큰 값 :" + result);
+	console.log(max2);
+</script>
+</head>
+<body>
+
+</body>
+</html>

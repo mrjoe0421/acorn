@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<table border="1">
+	<tr> <!-- 열 -->
+		<th>1열 제목</th> <!-- 행 -->
+		<th>2열 제목</th>
+	</tr>
+	<tr>
+		<th>1행 1열</th>
+		<th>1행 2열</th>
+	</tr>
+	<tr>
+		<th>2행 1열</th>
+		<th>2행 2열</th>
+	</tr>
+	</table>
+</body>
+</html>

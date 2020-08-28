@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	var box = prompt("1. 정수값을 입력하시오");
+	var box2 = prompt("2. 정수값을 입력하시오");
+	var box3 = prompt("3. 정수값을 입력하시오");
+	console.log("첫번째 입력값은:" + box);
+	console.log("두번째 입력값은:" + box2);
+	console.log("세번째 입력값은:" + box3);
+	var n = parseInt(n);
+	var n2 = parseInt(n2);
+	var n3 = parseInt(n3);
+	
+	var result = max(n, n2, n3);
+	console.log("가장 큰 값 :" + result);
+	document.write("가장 큰 값 :" + result);
+</script>
+</head>
+<body>
+
+</body>
+</html>

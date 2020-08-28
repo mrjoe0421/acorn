@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+
+		var box = prompt("1. 정수값을 입력하시오.");
+		var box2 = prompt("2. 정수값을 입력하시오.");
+		
+		var result = (n > m) n:m;
+		console.log(n);
+		console.log(m);
+		console.log(result);
+		document.write(
+			"<div>첫번째 입력값은:"+n+"두번째 입력값은:"+n2"</div>"
+		);
+	</script>
+</body>
+</html>

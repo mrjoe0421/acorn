@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<script type="text/javascript">
+	var num = 10; //전역변수
+	function outputNumbers(count){
+		for(var i = 0; i < count; i++){
+			console.log(i);
+		}
+		console.log(">>" + i); //5
+		console.log(">>" + num); //5
+	}
+	console.log(num);
+	outputNumbers(5);
+	//JS는 함수스코프를 따라서 함수 밖에서 출력하면 안되지만 전역변수를 사용하면 출력이 가능하다
+	/* 
+	자바나 C++에서 
+	*/
+</script>
+</body>
+</html>

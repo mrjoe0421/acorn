@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+
+	function test(){
+		var sum = 0;
+		for(var i = 0; i<=20; i++){
+			
+		}
+	}
+
+
+
+	var n = prompt("숫자를 입력하시오.");
+	var m = prompt("숫자를 입력하시오.");
+	n = parseInt(n);
+	m = parseInt(m);
+</script>
+</head>
+<body>
+
+</body>
+</html>

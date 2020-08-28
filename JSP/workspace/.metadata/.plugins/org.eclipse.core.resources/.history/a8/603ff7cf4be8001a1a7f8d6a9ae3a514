@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	var scope = "global";
+	function f(){
+		var scope;
+		console.log(scope);
+		var scope = "local";
+		console.log(scope);
+		
+	}
+	f();
+</script>
+</head>
+<body>
+
+</body>
+</html>

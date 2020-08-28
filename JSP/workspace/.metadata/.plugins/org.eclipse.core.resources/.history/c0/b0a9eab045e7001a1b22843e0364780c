@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form name="myFrom" action="target.html" method="get">
+	아이디:<br>
+	<input type="text" name="userid" value=""><br>
+	비밀번호:<br>
+	<input type="password" name="passwd"><br>
+	<input type="submit" name="sub"><br>
+	</form>
+</body>
+</html>

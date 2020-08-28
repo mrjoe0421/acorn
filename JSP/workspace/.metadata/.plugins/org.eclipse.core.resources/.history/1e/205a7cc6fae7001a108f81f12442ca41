@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Table</title>
+</head>
+<body>
+	<table border="1">
+		<tr>
+			<td>
+			<p>첫 번째 단락입니다</p>
+			<p>두 번째 단락입니다</p>
+			</td>
+			<td>
+			<p>중첩 테이블</p>
+			<table border="1">
+			<tr>
+			<td>A</td>
+			<td>B</td>
+			</tr>
+			<tr>
+			<td>C</td>
+			<td>D</td>
+			</tr>
+			</table>
+			</td>
+		</tr>
+		<tr></tr>
+	</table>
+</body>
+</html>

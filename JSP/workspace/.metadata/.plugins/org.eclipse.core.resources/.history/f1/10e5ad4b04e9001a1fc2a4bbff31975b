@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	
+
+	function count(n){
+		var count = 0;
+		var n = 1;
+		while(n<100){
+			if(n%3==0) count++;
+			n++;
+		}
+		return count++;
+	}
+	var n = prompt("숫자를 입력하시오");
+	n = parseInt(n);
+	var result = count(n)
+	console.log("3의 배수의 갯수: " + result);
+	document.write("3의 배수의 갯수: " + result);
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

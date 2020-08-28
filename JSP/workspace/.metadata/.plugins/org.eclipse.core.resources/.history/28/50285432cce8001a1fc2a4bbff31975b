@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var n1 = prompt("n값 : " + n1);
+		var n2 = prompt("n2값 : " + n2);
+		
+		console.log(n1);
+		console.log(n2);
+		
+	</script>
+</body>
+</html>

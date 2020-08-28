@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	p{
+	display:inline;
+	}
+</style>
+</head>
+<body>
+	<div>
+	<p>Hello</p>
+	<p>world</p>
+	</div>
+</body>
+</html>

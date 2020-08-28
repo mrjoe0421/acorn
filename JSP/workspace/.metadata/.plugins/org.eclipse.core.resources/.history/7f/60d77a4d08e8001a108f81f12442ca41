@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>position absolute 실습</title>
+<style type="text/css">
+  div.relative {
+   position: relative;/* static이 되고 body를 기준으로 absolute가 적용된다*/  
+  /*부모가 relative가 없으면 자식은 부모를 따라위치하지 않음 */
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+  } 
+
+  div.absolute { /*부모를 기준으로 움직인다*/
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+  } 
+</style>
+</head>
+<body>
+  <h2>position: absolute;</h2>
+
+  <p>An element with position: absolute; is positioned relative 
+   to the nearest positioned ancestor (instead of positioned relative 
+   to the viewport, like fixed):</p>
+
+  <div class="relative">This div element has position: relative;
+    <div class="absolute">This div element has position: absolute;</div>
+  </div>
+</body>
+</html>
+

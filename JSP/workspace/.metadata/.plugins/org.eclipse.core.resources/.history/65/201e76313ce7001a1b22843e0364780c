@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<ol>
+		<li>사과</li>
+		<li>배</li>
+	</ol>
+	<ol start="3">
+		<li>사과</li>
+		<li>배</li>
+	</ol>
+	<ul type="circle">
+		<li>사과
+		<li>배
+	</ul>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	for(var n=1; n<9; n++){
+		for(m=1; m<9; m++){
+			console.log(n * m);
+			
+		}
+	}
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

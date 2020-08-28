@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Fri Aug 28 17:15:43 KST 2020
+org.eclipse.jst.jee.server\:HelloTest=C\:\\JSP\\apache-tomcat-8.5.57\\webapps\\HelloTest
+org.eclipse.jst.jee.server\:Javascript=C\:\\JSP\\apache-tomcat-8.5.57\\webapps\\Javascript

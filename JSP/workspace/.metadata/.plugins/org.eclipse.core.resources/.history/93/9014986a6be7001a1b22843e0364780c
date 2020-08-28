@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	#two h1{
+	color :red;
+	}
+</style>
+</head>
+<body>
+	<div id="two">
+		<h1>Hello</h1>
+		<p>Hello2</p>
+	</div>
+	<div>
+		<h1>world</h1>
+	</div>
+</body>
+</html>

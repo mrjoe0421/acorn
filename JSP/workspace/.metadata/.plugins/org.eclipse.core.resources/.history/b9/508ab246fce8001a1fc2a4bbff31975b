@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	
+	var n = prompt("숫자를 입력하시오");
+	n = parseInt(n);
+	console.log(n);
+</script>
+</head>
+<body>
+
+</body>
+</html>

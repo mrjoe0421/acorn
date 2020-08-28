@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+</head>
+<body>
+<p>HELLO</p>
+<script type="text/javascript">
+	var num =0;
+	function Hello (a, b){
+		console.log(a, b);
+		return "결과 리턴됨";
+	}
+	function bye(c){
+		console.log(num);
+		return "결과 리턴됨";
+	}
+	Hello(100, 200);
+	bye();
+</script>	
+</body>
+</html>

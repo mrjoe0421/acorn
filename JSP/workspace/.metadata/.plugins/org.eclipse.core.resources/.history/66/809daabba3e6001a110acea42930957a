@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>제먹</title>
+<script type="text/javascript" src="/01Basic/mystyle.css"></script>
+</head>
+<body>
+1.<img src="/01HTML_CSS/images/bg.jpg"></img>
+2.<img src="../images/001.png"></img>
+3.<a href="http://google.com">구글</a>
+4. 
+<img src="../images/001.png"></img>
+<img src="/01HTML_CSS/images/001.png"></img>
+</body>
+</html>

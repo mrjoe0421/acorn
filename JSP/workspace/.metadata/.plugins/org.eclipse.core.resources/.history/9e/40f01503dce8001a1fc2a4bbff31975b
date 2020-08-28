@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	var box = prompt("1. 정수값을 입력하시오");
+	var box2 = prompt("2. 정수값을 입력하시오");
+	var box3 = prompt("3. 정수값을 입력하시오");
+	
+	
+</script>
+</head>
+<body>
+
+</body>
+</html>

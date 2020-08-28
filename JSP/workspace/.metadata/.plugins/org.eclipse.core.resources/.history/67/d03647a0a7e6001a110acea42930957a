@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>먹물</title>
+		<script type="text/javascript">
+			document.write("Hello world");
+		</script>
+		<style type="text/css">
+		p{color:red;}
+		</style>
+		<p>0.새로운 html 파일 하나 더 만들어서 새로운 html에서 작성</p>
+		1. title바꾸기<br> 2.mystyle.css의 내용을 내부css로  head에 적어주기=>body p 태그에 색깔적용시키기<br>
+		<a href="sample01_title.html">3.이전에 작성한 html파일에 링크걸기</a>
+		<a href="../01Basic/sample01_title.html">4.01basic폴더의 sample01_title.html에 링크 걸기</a>
+		document.write("Hello world");
+	</head>
+	
+	<body>
+	<p></p>
+	</body>
+</html>
