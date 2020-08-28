@@ -1,0 +1,30 @@
+
+public class OperateTest {
+
+	public static void main(String[] args) {
+		//2.대입연산자
+		int x = 10;
+		int x2 = x;
+		x2 += x; // ex) x+=1, -> x = x+1
+		x2 -= x;
+		x2 *= x;
+		x2 /= x;
+		x2 %= x;
+		
+		System.out.println(x2 = x2+x);
+		System.out.println(x2 = x2-x);
+		System.out.println(x2 = x2*x);
+		System.out.println(x2 = x2/x);
+		System.out.println(x2 = x2%x);
+		
+		//3. 증감연산자
+		
+		int k = 10;
+		++k; //전치
+		System.out.println(k);
+		k++; //후치
+		System.out.println(k);
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.notice.entity;
+
+import java.util.Date;
+
+public class Notice {//모델 클래스
+	private int no;
+	private String title;
+	private String content;
+	private String name;
+	private String writeday;
+
+	
+	
+	
+}

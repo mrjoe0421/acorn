@@ -1,0 +1,64 @@
+package com.dao;
+
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.ibatis.session.SqlSession;
+
+import com.dto.Dept;
+import com.exception.RecordNotFoundException;
+
+public class OracleMyBatisDAO {
+	// 1. 4가지 정보
+	
+	public OracleMyBatisDAO() {
+	
+	}
+
+	
+	public Dept selectByDeptno(SqlSession session, int deptno) {
+		Dept dept= session.selectOne("selectByDeptno", deptno);		
+		return dept;
+	}
+	public List<Dept> selectAll(SqlSession session){
+		//<select id="selectAll" resultType="com.dto.dept">
+		List<Dept> list= session.selectList("selectAll");
+		return list;
+	}
+		
+	public void insert(SqlSession session, Dept dept) {
+		int num= session.insert("deptInsert", dept);
+		System.out.println("추가된 레코드 ===="+ num);
+	}
+	
+	public void delete(SqlSession session,int deptno) {
+		int num= session.delete("deleteDept", deptno);
+		System.out.println("삭제된 갯수 ===="+ num);
+	}
+	
+	public void update(SqlSession session, Dept dept) {
+		int num = session.update("updateDept", dept);
+		System.out.println("업데이트된 갯수===="+ num);
+	}
+	
+	public int deptRecordCount(SqlSession session) {
+		int num =session.selectOne("selectCount" );
+		return num;
+		
+	}
+	
+//	public List selectByDeptNameAndLoc(Dept dept) {
+//	//1.dao에서 부서이름, 지역을 이용 and select 완성 후 아래처럼 수정
+//	//dao에서 dept를 검사 부서이름만 있는 경우
+//	//지역만 있는 경우
+//	//둘  다 있는 경우를 판단한여 Mapper.xml의 id를 다르게 호출하여
+//	//select 결과 리턴
+//		List<Dept> list = 
+//	}
+}

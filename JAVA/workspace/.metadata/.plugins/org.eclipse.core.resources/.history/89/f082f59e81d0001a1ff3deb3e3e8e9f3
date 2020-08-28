@@ -1,0 +1,12 @@
+
+public class Workshop3 {
+
+	public static void main(String[] args) {
+		
+		char ch = 'z';
+		boolean b = ('a' >= ch) && ('A' >= ch) ? true : false;
+		System.out.println(b);
+
+	}
+
+}

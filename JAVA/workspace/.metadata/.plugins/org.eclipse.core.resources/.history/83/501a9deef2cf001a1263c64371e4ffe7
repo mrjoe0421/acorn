@@ -1,0 +1,14 @@
+
+public class P_06 {
+
+	public static void main(String[] args) {
+		int test = 100;
+		{
+			int num = 10;
+			System.out.println(num);
+			System.out.println(test);
+		}
+		
+	}
+
+}

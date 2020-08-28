@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;JDBC_Method_divide_Test .java&apos; to &apos;0814/src&apos;&#x0D;&#x0A;- Original project: &apos;0813!&apos;&#x0D;&#x0A;- Destination element: &apos;0814/src&apos;&#x0D;&#x0A;- Original element: &apos;JDBC_Method_divide_Test .java&apos;" description="Copy file" destination="=0814/src" element1="src/JDBC_Method_divide_Test .java" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1597366546801" units="0" version="1.0"/>
+</session>

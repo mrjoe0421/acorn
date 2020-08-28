@@ -1,0 +1,27 @@
+
+public class P_07 {
+		String name;
+		int age;
+		
+		public void printInfo() {
+			int num = 1;
+			num = num + 10;
+			System.out.println("printInfo() num=====" + num);
+			System.out.println(name+":" + age);
+		}
+	public static void main(String[] args) {
+		P_07 st_1 = new P_07();
+		st_1.name = "홍우";
+		st_1.age = 25;
+		st_1.printInfo();
+		
+		P_07 st_2 = new P_07();
+		st_2.name = "방우";
+		st_2.age = 25;
+		st_2.printInfo();
+	
+		
+		}
+	}
+
+}

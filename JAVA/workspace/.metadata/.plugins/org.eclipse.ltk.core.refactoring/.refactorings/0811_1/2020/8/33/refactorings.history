@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;0811_2/src&apos;&#x0D;&#x0A;- Original project: &apos;0811_1&apos;&#x0D;&#x0A;- Destination element: &apos;0811_2/src&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.dao.OracleDAO.java&#x0D;&#x0A;     com.dao.OracleMain.java&#x0D;&#x0A;     com.dao.OracleService.java" description="Copy compilation units" destination="=0811_2/src" element1="/src&lt;com.dao{OracleDAO.java" element2="/src&lt;com.dao{OracleMain.java" element3="/src&lt;com.dao{OracleService.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1597118437982" units="3" version="1.0"/>
+</session>

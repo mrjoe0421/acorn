@@ -1,0 +1,27 @@
+
+public class Practice {
+		String name;
+		String PhoneNumber;
+	public static void main(String[] args) {
+		int num = 10;
+		System.out.println("로컬변수" + num);
+		
+		Practice mem1 = new Practice();
+		mem1.name = "홍길동";
+		Practice mem2 = new Practice();
+		mem2.name = "이순신";
+		
+		System.out.println(mem1.name);
+		System.out.println(mem2.name);
+		
+		
+		int a = 10;
+		int b = 33;
+		int c = 44;
+		int Max = (a < b) ? a : b;
+		Max = (Max > c) ? Max : c;
+		System.out.println(Max);
+
+	}
+
+}

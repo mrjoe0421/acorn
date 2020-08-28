@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Workshop8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		System.out.println("1. 정수 입력하세요");
+		String num_1 = scan.next();
+		System.out.println("2. 정수 입력하세요");
+		//String num_2 = scan.next();
+		int num_2 = scan.nextInt();
+		int intnum1 = Integer.parseInt(num_1); //문자를 숫자로
+		//int intnum2 = Integer.parseInt(num_2);
+		int result = intnum1 + num_2;
+		System.out.println(intnum1 + "\t" + num_2 + "\t" +result);
+		
+		scan.close();
+	}
+
+}

@@ -1,0 +1,32 @@
+
+public class P_07 { //멤버변수
+	
+	String name;
+	String phoneNumber;
+	String address;
+	char gender;
+
+	public static void main(String[] args) {//로컬변수
+		
+		int num = 10;
+		System.out.println("로컬변수"+num);
+		
+		Member_Test mem1 = new Member_Test();
+		mem1.name = "홍길동";
+		Member_Test mem2 = new Member_Test();
+		mem2.name = "이순신";
+		
+		Member_Test mem3 = new Member_Test();
+		mem3.name = "이철원";
+		mem3.address = "서울";
+		
+		System.out.println(mem1.name);
+		System.out.println(mem2.name);
+		System.out.println(mem3.name + " 주소= " + mem3.address);
+		
+		
+		
+
+	}
+
+}

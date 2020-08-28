@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Scanner_Test {
+
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("1. 이름을 입력하세요");
+		String name = scan.next();
+		System.out.println("2. 나이를 입력하세요");
+		String age = scan.next();
+		System.out.println(name + "\t" + age);
+		
+		scan.close();
+
+	}
+
+}

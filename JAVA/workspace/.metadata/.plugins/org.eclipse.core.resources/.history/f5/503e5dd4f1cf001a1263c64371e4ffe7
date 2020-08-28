@@ -1,0 +1,16 @@
+
+public class P_03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String k = "10";
+		System.out.println(k+20);
+		int k2 = Integer.parseInt(k);
+		System.out.println(k2);
+		
+		
+		System.out.println(String.valueOf(10)+10);
+		
+	}
+
+}

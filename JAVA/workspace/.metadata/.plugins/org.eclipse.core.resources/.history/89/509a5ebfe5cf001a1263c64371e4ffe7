@@ -1,0 +1,16 @@
+
+public class Stu_Test {
+	String name; //멤버변수 객체생성, 자동초기화, 객체정보 저장
+	int age;
+	public void printInfo() {//멤버메소드, 객체생성, 호출사용, 동작관련
+		int num = 1;
+		System.out.println("printInfo() num====="+ num);
+		System.out.println(name+":" + age);
+}
+		
+	public static void main(String[] args) {
+		Stu_Test st_1= new Stu_Test();
+		System.out.println(st_1);
+	}
+
+}

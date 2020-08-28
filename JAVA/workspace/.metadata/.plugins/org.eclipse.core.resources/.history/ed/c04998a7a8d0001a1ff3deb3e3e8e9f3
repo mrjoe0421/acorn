@@ -1,0 +1,22 @@
+
+public class grade {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+			int score = 90;
+			char grade;
+			if (score >= 90) {
+				System.out.println(grade = 'A');
+			} else if (score >= 80) {
+				System.out.println(grade = 'B');
+			}else if(score >= 70) {
+				System.out.println(grade = 'C');
+			}else if(score >= 60) {
+				System.out.println(grade = 'D');
+			}else {
+				System.out.println(grade = 'F');
+			}
+				System.out.println("이 학생은 " + grade + " 학점입니다.");
+	}
+
+}

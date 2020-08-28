@@ -1,0 +1,75 @@
+
+public class JDBCTest2 {
+	String pname;
+	int oriprice;
+	int sellprice;
+	
+	
+	public JDBCTest2(String pname, int oriprice, int sellprice) {
+		super();
+		this.pname = pname;
+		this.oriprice = oriprice;
+		this.sellprice = sellprice;
+	}
+
+	
+
+	/**
+	 * @return the pname
+	 */
+	public String getPname() {
+		return pname;
+	}
+
+
+
+	/**
+	 * @param pname the pname to set
+	 */
+	public void setPname(String pname) {
+		this.pname = pname;
+	}
+
+
+
+	/**
+	 * @return the oriprice
+	 */
+	public int getOriprice() {
+		return oriprice;
+	}
+
+
+
+	/**
+	 * @param oriprice the oriprice to set
+	 */
+	public void setOriprice(int oriprice) {
+		this.oriprice = oriprice;
+	}
+
+
+
+	/**
+	 * @return the sellprice
+	 */
+	public int getSellprice() {
+		return sellprice;
+	}
+
+
+
+	/**
+	 * @param sellprice the sellprice to set
+	 */
+	public void setSellprice(int sellprice) {
+		this.sellprice = sellprice;
+	}
+
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

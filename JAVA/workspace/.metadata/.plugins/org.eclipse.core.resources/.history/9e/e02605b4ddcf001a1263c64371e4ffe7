@@ -1,0 +1,27 @@
+
+public class Member_Test {//class 블럭
+	//멤버, 인스턴스변수 - class 블럭에 선언
+	//선언 후 초기화 불필요 - 사용시 자동 초기화
+	//함수 안에서 new로 필요한 만큼 객체 생성 사용
+	String name;
+	String phoneNumber;
+	String address;
+	char gender; 
+	
+	
+	public static void main(String[] args) {//main블럭
+		//로컬변수(메소드/함수에 선언된 변수), 선언과 초기화를 후 사용
+			int num = 10;
+			System.out.println("로컬변수"+num);
+			Member_Test mem1= new Member_Test();//객체생성
+			mem1.name = "홍길동";//생성객체 접근   name 멤버변수 저장
+			Member_Test mem2= new Member_Test();//객체생성
+			mem2.name = "이순신";//생성객체 접근   name 멤버변수 저장
+			
+			System.out.println(mem1.name);
+			
+			
+			
+	}// main블럭
+
+}//class 블럭종료

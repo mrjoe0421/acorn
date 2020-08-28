@@ -1,0 +1,43 @@
+package com.service;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.ibatis.session.SqlSession;
+import org.apache.ibatis.session.SqlSessionFactory;
+
+import com.config.MySqlSessionFactory;
+import com.dao.OracleMyBatisDAO;
+
+import com.dto.Emp;
+import com.exception.RecordNotFoundException;
+
+public class OracleMyBatisService {
+
+	OracleMyBatisDAO dao;
+
+	
+	public OracleMyBatisService() {
+		super();
+		// TODO Auto-generated constructor stub
+		dao = new OracleMyBatisDAO();
+	}
+	
+	public List<Emp> selectAll(){
+		SqlSession session1 = MySqlSessionFactory.getSqlSession();
+		List<Emp> list = null;
+		try {
+			list = dao.selectAll(session1);
+		} finally {
+			session1.close();
+		}
+		return list;
+	}
+	
+	
+
+}

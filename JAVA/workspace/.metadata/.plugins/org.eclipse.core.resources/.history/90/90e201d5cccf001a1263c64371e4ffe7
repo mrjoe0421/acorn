@@ -1,0 +1,21 @@
+
+public class Sample02_variable_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//자바는 블럭 scope (자바스크립트는 함수scope_
+				{
+					int num = 10;
+					System.out.println(num);
+				}
+		 //A블럭
+				//System.out.println(num); //블럭밖에서 인식불가
+				{
+					//B블럭
+					int num = 20;
+					System.out.println(num);
+				}//B블럭
+			}//main 블럭
+	}
+
+}

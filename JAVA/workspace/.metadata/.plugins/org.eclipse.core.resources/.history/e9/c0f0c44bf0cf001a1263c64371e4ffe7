@@ -1,0 +1,20 @@
+
+public class P_01 {
+
+	public static void main(String[] args) {
+		//홍길동 20 서울 성별(남) 결혼여부(false)
+		//1. 변수선언과 초기화 동시에
+		String name = "홍길동";
+		int age = 20;
+		String address = "서울";
+		char gender = '남';
+		boolean isMarried = false;
+		float height = 185.63F;
+		double weight = 78.25;
+		long productNo = 124562134;
+		
+		System.out.println("String name=" + name);
+
+	}
+
+}

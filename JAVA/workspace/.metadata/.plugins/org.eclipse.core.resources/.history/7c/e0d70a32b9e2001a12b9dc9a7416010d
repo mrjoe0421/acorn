@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="DeptMapper.xml">
+	<select id="selectAll" resultType="com.dto.Emp">
+	<!-- id=selectAll 실행 후 결과를 resultType으로 저장 -->
+	select deptno,dname,loc from dept
+	</select> 
+	<select id = "selectByDeptno" resultType="com.dto.Emp"><!-- selectOne 사용 -->
+	select deptno,dname,loc from dept where deptno = 10
+	</select>
+	<select id ="selectByDeptnoUse" parameterType="int" resultType="com.dto.Emp">
+	<!-- selectOne사용 -->
+	select deptno,dname,loc from dept where deptno=#{deptno}
+	</select>
+	
+</mapper>

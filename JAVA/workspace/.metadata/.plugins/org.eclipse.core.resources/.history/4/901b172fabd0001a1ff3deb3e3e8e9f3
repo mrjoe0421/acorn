@@ -1,0 +1,15 @@
+
+public class Test03 {
+
+	public static void main(String[] args) {
+		char ch = 'z';
+		boolean b;
+		if('a' <= ch && ch <= 'z') {
+			System.out.println();
+		} else { 
+			
+		}
+		System.out.println(b);
+	}
+
+}

@@ -1,0 +1,40 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+public class JDBCTest2 {
+
+
+		public static void main(String[] args) throws SQLException  {
+			
+			String driver = "oracle.jdbc.driver.OracleDriver";
+			String url = "jdbc:oracle:thin:@localhost:1521:orcl";
+	        String user = "product";
+	        String pass = "product";
+	        
+	        Connection con = null;
+	        PreparedStatement pstmt = null;
+	        ResultSet rs = null;
+		
+	        try {
+				Class.forName(driver);
+				con = DriverManager.getConnection(url, user, pass);
+				
+				String sql = "select * from product";
+				rs = pstmt.executeQuery();
+				
+				while(rs.next()) {
+					
+				}
+			} catch (Exception e) {
+				e.printStackTrace();
+			}finally {
+				if(rs!=null)con.close();
+				if(pstmt!=null)pstmt.close();
+				if(con!=null)con.close();
+			}
+	}
+
+}

@@ -1,0 +1,22 @@
+
+public class OperateTest {
+
+	public static void main(String[] args) {
+		//2.대입연산자
+		int x = 10;
+		int x2 = x;
+		x2 += x;
+		x2 -= x;
+		x2 *= x;
+		x2 /= x;
+		x2 %= x;
+		
+		System.out.println(x2 = x2+x);
+		System.out.println(x2 = x2-x);
+		System.out.println(x2 = x2*x);
+		System.out.println(x2 = x2/x);
+		System.out.println(x2 = x2%x);
+
+	}
+
+}

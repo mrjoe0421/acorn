@@ -1,0 +1,11 @@
+
+public class Member_Test {//class 블럭
+
+	public static void main(String[] args) {//main블럭
+		//로컬변수(메소드/함수에 선언된 변수), 선언과 초기화를 후 사용
+			int num = 10;
+			System.out.println(num);
+			
+	}// main블럭
+
+}//class 블럭종료

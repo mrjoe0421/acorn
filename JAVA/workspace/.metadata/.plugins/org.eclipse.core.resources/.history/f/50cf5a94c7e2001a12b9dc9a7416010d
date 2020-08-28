@@ -1,0 +1,30 @@
+import java.security.Provider.Service;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Set;
+
+import com.dto.Emp;
+import com.exception.RecordNotFoundException;
+import com.service.OracleMyBatisService;
+
+public class OralceMyBatisMain {
+
+	public static void main(String[] args) {
+		OracleMyBatisService service= new OracleMyBatisService();
+		
+//		List<Emp> list =service.selectAll();
+//		for(Emp emp:list) {
+//			System.out.println(emp);
+//		}
+//		
+//		Emp emp = service.selectByEmpno(9000);
+//		System.out.println(emp);
+		
+		service.insert(new Emp(7777,"joe","diler", 7499, "2020-07-22", 3000.0, 300.0, 40));
+		
+	}
+}
+
+

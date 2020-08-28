@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="DeptMapper.xml">
+	<!-- sql 쿼리문 작성 -->
+	
+	<insert id="deptInsert" parameterType="com.dto.Dept" >
+		insert into dept(deptno, dname, loc) values(#{deptno}, #{dname}, #{loc})
+	</insert>
+	
+	<select id="selectAll" resultType="com.dto.Dept">
+		select deptno,dname,loc from dept //sql문
+	</select>
+	
+	<select id = "selectByDeptno" resultType="com.dto.Dept"><!-- selectOne 사용 -->
+	select deptno,dname,loc from dept where deptno = 10
+	</select>
+	
+	<select id ="selectByDeptnoUse" parameterType="int" resultType="com.dto.Dept">
+	<!-- selectOne사용 -->
+	select deptno,dname,loc from dept where deptno=#{deptno}
+	</select>
+	
+	
+</mapper>

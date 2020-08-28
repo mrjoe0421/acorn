@@ -1,0 +1,11 @@
+
+public class MyTest02 {
+
+	public static void main(String[] args) {
+		long ssn = 9504213344433L;
+		
+		System.out.println(ssn);
+
+	}
+
+}

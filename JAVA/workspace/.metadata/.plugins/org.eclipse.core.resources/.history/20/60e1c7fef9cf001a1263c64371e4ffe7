@@ -1,0 +1,16 @@
+
+public class MyTest03 {
+
+	public static void main(String[] args) {
+		int n = 10;
+		int n2 = 20;
+		
+		int change = n;
+		n = n2;
+		n2 = change;
+		
+		System.out.println(change);
+
+	}
+
+}

@@ -1,0 +1,64 @@
+import java.security.Provider.Service;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.dto.Dept;
+import com.exception.RecordNotFoundException;
+import com.service.OracleMyBatisService;
+
+public class OralceMyBatisMain2 {
+
+	public static void main(String[] args) {
+		OracleMyBatisService service= new OracleMyBatisService();
+//		Dept dept= new Dept();
+//		dept.setDname("영업");
+//		dept.setLoc("제주");
+//		List<Dept> list= service.selectByDeptNameAndLoc(dept);
+//		for (Dept dept2 : list) {
+//			System.out.println(dept2);
+//		}
+		
+
+//		service.insert(new Dept(99, "개발","강남"));
+//		service.update(new Dept(91,"영업", "서울"));
+//		Dept dept= service.selectByDeptno(99);
+		//service.delete(99);
+		
+//		System.out.println(dept);
+//		List<Dept> list= service.selectAll();
+//		for (Dept dept : list) {
+//			System.out.println(dept);
+//		System.out.println(service.deptRecordCount());
+//		}
+//		HashMap<String, Integer> map = new HashMap<>();
+//		map.put("key1", 10);
+//		map.put("key2", 20);
+//		List<Dept> list = service.selectByHashMap(map);
+//		for (Dept dept : list) {
+//			System.out.println(dept);
+//		}
+//		HashMap<String, Integer> map = new HashMap<>();
+//		map.put("A", 11);
+//		map.put("B", 12);
+//		map.put("C", 40);
+//		List<Dept>list = service.selectBydeptNoIn(map);
+//		for(Dept dept :list) {
+//			System.out.println(dept);
+//		}
+//		HashMap map = service.selectByDeptnoHashMap(10);
+//		Set<String> keys = map.keySet();
+//		System.out.println(keys);
+//		System.out.println(map.get("DNAME"));
+				
+		
+//		Dept dept= service.selectByDeptno(12);
+//		System.out.println(dept);
+		List<Dept> list= service.selectAll();
+		for (Dept dept : list) {
+			System.out.println(dept);
+		}
+
+	}
+
+}
