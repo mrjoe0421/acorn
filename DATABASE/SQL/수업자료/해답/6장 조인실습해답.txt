@@ -1,0 +1,118 @@
+
+
+1. 
+   SELECT EMP.EMPNO, EMP.ENAME , DEPT.DEPTNO, DEPT.DNAME
+   FROM DEPT
+   JOIN EMP
+   ON DEPT.DEPTNO = EMP.DEPTNO
+   ORDER BY EMP.ENAME;
+
+2.
+ SELECT EMP.EMPNO, EMP.ENAME, EMP.SAL, EMP.DEPTNO
+FROM DEPT
+JOIN EMP
+ON DEPT.DEPTNO = EMP.DEPTNO
+WHERE EMP.SAL >= 2000
+ORDER BY EMP.SAL DESC;
+
+
+3.  
+SELECT EMP.EMPNO, EMP.ENAME, EMP.JOB, EMP.SAL , EMP.DEPTNO
+FROM EMP
+JOIN DEPT
+ON EMP.DEPTNO = DEPT.DEPTNO
+WHERE EMP.SAL >= 2500
+AND EMP.JOB = 'MANAGER'
+ORDER BY EMP.DEPTNO;
+4
+
+  SELECT EMP.EMPNO, EMP.ENAME, EMP.SAL , SALGRADE.GRADE
+FROM EMP
+JOIN SALGRADE
+ON EMP.SAL BETWEEN SALGRADE.LOSAL AND SALGRADE.HISAL
+WHERE SALGRADE.GRADE = 4
+ORDER BY EMP.SAL DESC;
+
+
+5
+   -- ANSI
+SELECT EMPNO, ENAME, DNAME, SAL, GRADE
+FROM EMP E
+JOIN DEPT D
+ON e.deptno= d.deptno
+JOIN salgrade S
+ON e.sal BETWEEN S.LOSAL AND s.hisal
+ORDER BY S.GRADE DESC;
+
+
+6
+   -- ANSI
+
+SELECT E.ENAME  사원 , M.ENAME 관리자
+FROM EMP E
+JOIN EMP M
+ON E.MGR = M.EMPNO;
+7
+   -- ANSI
+SELECT E.ENAME 사원, M1.ENAME 관리자1,  M2.ENAME 관리자2
+FROM EMP E
+JOIN EMP M1
+ON E.MGR = M1.EMPNO
+JOIN EMP M2
+ON M1.MGR = M2.EMPNO
+
+8
+   -- ANSI
+SELECT E.ENAME 사원, M1.ENAME 관리자1,  M2.ENAME 관리자2
+FROM  EMP E LEFT OUTER JOIN EMP M1 
+ON E.MGR = M1.EMPNO   LEFT OUTER JOIN EMP M2
+ON M1.MGR = M2.EMPNO;
+
+9. 
+  select e.ename, d.dname
+  from emp e join dept d
+  on e.deptno = d.deptno
+  where e.deptno = 20;
+
+10. 
+
+   select e.ename, e.comm, d.dname
+   from emp e JOIN dept d
+   ON e.deptno = d.deptno
+   and  e.comm IS NOT NULL and e.comm != 0;
+
+11. 
+   select e.ename, d.dname
+   from emp e join dept d
+   on e.deptno = d.deptno
+   where e.ename  LIKE  '%A%';
+
+
+12.
+   select e.ename, e.sal , e.hiredate, e.comm 
+   from emp e join dept d
+   on e.deptno = d.deptno
+   where d.loc = 'DALLAS'
+   and e.sal >= 1500;
+
+  
+13.
+
+      SELECT e.ename, e.sal
+   FROM EMP e join EMP m
+   on e.empno = m.empno
+    WHERE e.sal > m.sal;
+
+14. 
+   SELECT e.ename , e.sal , e.hiredate, d.dname
+FROM EMP e join  DEPT  d
+on e.deptno = d.deptno
+WHERE MONTHS_BETWEEN( sysdate , e.HIREDATE)/12 > 30;
+
+15.
+
+  SELECT d.DNAME  부서명 ,  COUNT(e.EMPNO ) 인원수
+FROM DEPT d join EMP e
+on d.DEPTNO = e.DEPTNO
+   WHERE TO_CHAR( e.HIREDATE, 'YYYY' ) <= 1982
+GROUP BY d.DNAME;

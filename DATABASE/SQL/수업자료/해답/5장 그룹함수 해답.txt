@@ -1,0 +1,16 @@
+1. 사원테이블에서 부서별 인원수가 6명 이상인 부서코드 검색?
+
+SELECT DEPTNO , COUNT(DEPTNO)
+FROM EMP
+GROUP BY DEPTNO
+HAVING COUNT(DEPTNO) >= 6
+/
+
+
+2.  사원테이블로부터 년도별 , 월별  급여합계를 출력할 수 있는 SQL문장 작성?
+
+SELECT TO_CHAR( HIREDATE , 'YYYY' ) 년 , TO_CHAR( HIREDATE , 'MM') 월 , SUM(SAL)
+FROM EMP
+GROUP BY TO_CHAR( HIREDATE , 'YYYY'), TO_CHAR( HIREDATE , 'MM') 
+ORDER BY 년 ASC
+/

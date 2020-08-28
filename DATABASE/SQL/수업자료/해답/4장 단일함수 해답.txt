@@ -1,0 +1,59 @@
+4장 단일함수 실습문제해답
+
+1. 사원테이블에서 입사일이 12월인 사원의 사번, 사원명, 입사일 검색하시오
+ 
+    SELECT EMPNO,ENAME, HIREDATE
+    FROM EMP
+    WHERE TO_CHAR( HIREDATE, 'MM' ) = '12';
+
+ 
+
+SELECT EMPNO,ENAME, HIREDATE
+    FROM EMP
+    WHERE EXTRACT(month FROM HIREDATE) = '12';
+
+http://docs.oracle.com/cloud/latest/db112/SQLRF/functions059.htm#SQLRF00639
+
+ 
+ 2.  SELECT EMPNO, ENAME, LPAD( SAL , 10 , '*' ) "급여"
+      FROM EMP;
+ 
+ 3. SELECT EMPNO, ENAME, TO_CHAR( HIREDATE , 'YYYY-MM-DD' ) "입사일"
+     FROM EMP;
+
+
+ 4.
+    select empno, ename, comm , 
+    CASE  WHEN  comm IS NULL THEN '일반사원'
+              ELSE '영업사원'
+    END "사원종류"
+from emp;
+
+ 5. 
+   select loc,
+   CASE  loc WHEN 'NEW YORK' THEN 'EAST'
+             WHEN 'BOSTON' THEN 'EAST'
+             WHEN 'CHICAGO' THEN 'CENTER'
+             WHEN 'DALLAS' THEN 'CENTER'
+             ELSE 'ETC'
+  END as AREA
+ from dept;
+
+
+6.
+ select ename, sal ,
+     CASE WHEN sal >= 2000 THEN 1000
+          WHEN sal >= 1000 THEN 500
+          ELSE 0
+     END bonus
+ from emp;
+ 또는
+  select ename, sal ,
+     CASE WHEN sal >= 2000 THEN 1000
+          ELSE ( CASE WHEN sal >= 1000 THEN 500
+                      ELSE 0
+                  END )
+     END bonus
+ from emp;
+
+
